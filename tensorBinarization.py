@@ -1,4 +1,3 @@
-```python
 # credit: https://pytorch.org/docs/master/torch.html#torch.where
 
 a = np.array([0.1, 0.4, 0.35, 0.8])
@@ -18,4 +17,4 @@ out = out.numpy().astype('bool')
 # print(torch.from_numpy(out)) produces following error:
 # TypeError: can't convert np.ndarray of type numpy.bool_. The only supported types are: double, float, float16, int64, int32, and uint8.
 
-```
+
