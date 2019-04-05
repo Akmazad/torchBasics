@@ -10,3 +10,4 @@ t1 = torch.ones(prob.shape) # create a tensor of all ones with shape as 'prob'
 th = 0.4
 out = torch.where(prob >= th, t1, t0) # binarize based on the condition
 print(out)
+```
